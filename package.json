@@ -1,0 +1,39 @@
+{
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "Fast, reliable, minimalist web framework for bunjs",
+    "main": "burger.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "bun burger.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/msamgan/burger.git"
+    },
+    "keywords": [
+        "bunjs",
+        "rest",
+        "api",
+        "server",
+        "api"
+    ],
+    "author": "msamgan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/msamgan/burger/issues"
+    },
+    "homepage": "https://github.com/msamgan/burger#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^8.19.0"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": false,
+        "printWidth": 112
+    }
+}
